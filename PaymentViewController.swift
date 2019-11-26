@@ -85,7 +85,7 @@ class PaymentViewController: UIViewController {
     
     func handleNextAction(with paymentIntentClientSecret: String){
         
-        STPPaymentConfiguration.shared().stripeAccount = "acct_17aTOmARwF8KSWdB"
+        STPPaymentConfiguration.shared().stripeAccount = "acct_xxx"
         
         let paymentHandler = STPPaymentHandler.shared()
         
